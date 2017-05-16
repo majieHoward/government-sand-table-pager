@@ -134,6 +134,16 @@
 	  </div> 
 	 </body>
 </html>
+<script>
+	var all=document.getElementsByClassName("col-sm-1");
+	
+	for(var i=0;all.length;i++){
+		all[i].addEventListener('click',function(){
+			window.location.href=this.getAttribute("linkPath");
+		});
+	}
+	
+</script>
     <script src="dist/js/bootstrap.min.js"></script>
 
 </body></html>

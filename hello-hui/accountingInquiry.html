@@ -52,7 +52,7 @@
 		  <div id="steps" class="steps" style="padding-top: 0; padding-bottom: 50px">
 				<div class="container text-center">
 					<ul class="clearfix menu_new">
-						<li class="col-sm-1 step">
+						<li class="col-sm-1 step" linkPath="customerManagement.html">
 							<span class="circle-icon" style="border: 1px solid #fff;"><i class="iconfont icon-kehuguanli"></i></span>
 							<h5><strong>客户管理</strong></h5>
 							<br>
@@ -174,6 +174,16 @@
 	  </div> 
 	 </body>
 </html>
+<script>
+	var all=document.getElementsByClassName("col-sm-1");
+	
+	for(var i=0;all.length;i++){
+		all[i].addEventListener('click',function(){
+			window.location.href=this.getAttribute("linkPath");
+		});
+	}
+	
+</script>
     <script src="dist/js/bootstrap.min.js"></script>
 
 </body></html>
