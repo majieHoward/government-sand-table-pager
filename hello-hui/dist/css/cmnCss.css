@@ -15747,7 +15747,7 @@ iframe[title^=Google] {
 	transition:all .3s
 }
 .techSolution_outer {
-	padding:60px 0 40px
+	padding: 10px 0 40px;
 }
 .techSolution_outer .techSolution_inner h2 {
 	color:#3c3c3c;
@@ -31087,14 +31087,13 @@ body.current {
 	width:87%
 }
 .header_new .menu_new {
-	float:right;
-	margin:0;
-	transition:all .4s ease-in-out .4s
+	width: 80%;
+    margin: 0 12%;
+    transition: all .4s ease-in-out .4s;
+}
 }
 .header_new .menu_new li {
 	transition:none;
-	float:left;
-	margin:0 0 0 12px;
 	position:relative;
 	text-transform:uppercase
 }
@@ -31136,7 +31135,7 @@ body.current {
 	padding:0;
 	background:#fff;
 	position:absolute;
-	right:-81%;
+	left: 180%;
 	top:100%;
 	z-index:999;
 	display:none;
