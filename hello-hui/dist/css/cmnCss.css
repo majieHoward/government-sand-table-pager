@@ -31763,7 +31763,7 @@ body.current {
 	text-transform:none
 }
 .header_new .menu_new li:hover {
-	background-color:#07b8de
+	background-color:#07b8de;
 }
 .header_new .menu_new li .sub_menu_new.srv-list {
 	right:auto;
